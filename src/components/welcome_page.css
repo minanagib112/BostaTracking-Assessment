@@ -1,0 +1,102 @@
+.Welcome-title{
+    color:#FF0000; 
+    font-size:calc(10px + 8vmin); 
+    font-weight: 700; 
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.Welcome-search-title{
+    color:rgb(95, 95, 95); 
+    font-size:calc(10px + 2vmin); 
+    font-weight: 700; 
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.en-search-bar{
+    height: 6vh;
+    font-size:calc(3px + 2vmin); 
+    font-weight: 400;
+    padding-left: 1vw;
+    border:rgb(231, 231, 231);
+    border-style:solid; 
+    border-radius: 0.5rem;
+    border-width:2px;
+    padding-left: 1vw;
+    border-right: #ea0000;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right-style:solid ; 
+}
+
+.ar-search-bar{
+    height: 6vh;
+    font-size:calc(3px + 2vmin); 
+    font-weight: 400;
+    padding-left: 1vw;
+    border:rgb(231, 231, 231);
+    border-style:solid; 
+    border-radius: 0.5rem;
+    border-width:2px;
+    padding-right: 1vw;
+    border-left: #ea0000;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left-style:solid ; 
+}
+/* input:focus{
+    border-color: #ea0000;
+    outline: none;
+} */
+
+/* button:focus{
+    outline: none;
+} */
+
+.ar-search-button{
+    cursor: pointer;
+    height: 6.7vh;
+    background-color: #ea0000;
+    border:#ea0000;
+    border-style:solid; 
+    width: 3.5vw;
+    border-radius: 0.5rem;
+    border-width:2px;
+    padding: 0;
+    margin: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.en-search-button{
+    cursor: pointer;
+    height: 6.7vh;
+    background-color: #ea0000;
+    border:#ea0000;
+    border-style:solid; 
+    width: 3.5vw;
+    border-radius: 0.5rem;
+    border-width:2px;
+    padding: 0;
+    margin: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.Welcome-Search-bar-row{
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.Welcome-Search-icon{
+    color:white; 
+    height:3vh;
+}
+
+.Welcome-col{
+    display:flex; 
+    flex-direction:column;
+    margin:4vh;
+    margin-top:2vh; 
+    justify-content:center;
+}

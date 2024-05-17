@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  src: url('./assets/fonts/Cairo/Cairo-VariableFont_slnt,wght.ttf')  format('truetype');
+}
+
+.App {
+  text-align: center;
+  color: rgb(59, 59, 59);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    height: 7vh;
+    width: auto;
+    padding-right: 4vw;
+  }
+  .Ar-app-logo {
+    height: 16vh;
+    width: auto;
+    padding-right: 6vw;
+  }
+}
+
+.header{
+  border-bottom-color: rgb(243, 243, 243);
+  border-bottom-style: solid;
+  /* border-bottom-radius: 1rem; */
+  border-width: 2px;
+  justify-content: center;
+  display: flex;
+}
+
+.App-Nav{
+  height: 11vh;
+  display:flex;
+  flex-direction: row;
+  align-items:center; /* align-items:flex-end; for right alignment */
+  justify-content:  center;
+  font-size: calc(6px + 2vmin);
+  font-weight: 700;
+  margin: 0 10vw;
+  width: 75vw;
+}
+
+.App-Nav-items{
+  display:flex; 
+  flex-direction:row;
+  justify-content: space-around;
+  width: 30vw;
+  /* margin-right: 4vw; */
+  margin-left: 4vw;
+}
+
+.App-body {
+  display:grid;
+  margin-top: 6vh;
+  height: 82vh;
+  justify-content: center;
+  font-family: Cairo;
+}
+
+.Black-font{
+  font-weight: 650;
+  font-size: calc(5px + 2vmin);
+}
+
+.Grey-border{
+  border-color: rgb(243, 243, 243);
+  border-style: solid;
+  border-radius: 1rem;
+  border-width: 2px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Progress-row{
+  display: grid;
+  justify-content: center;
+  padding: 3vh;
+}
+
+.App-header {
+  border-bottom-width: 2px;
+  border-bottom-color: rgb(243, 243, 243);
+  border-bottom-style: solid;
+  font-family: 'Cairo';
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Small-titles{
+  display:flex; 
+  flex-direction:row; 
+  justify-content:space-between; 
+  text-align:left;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+}
+
+ /* unvisited link */
+a:link {
+  color: rgb(43, 43, 43);
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: rgb(43, 43, 43);
+  text-decoration: none;
+
+}
+
+/* mouse over link */
+/* a:hover {
+  color: hotpink;
+} */
+
+/* selected link */
+/* a:active {
+  color: blue;
+}  */

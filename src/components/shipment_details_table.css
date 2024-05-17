@@ -1,0 +1,11 @@
+.Table-head{
+    background-color:  #fbfbfb;
+}
+
+.Table{
+    text-align:left;
+    border: rgb(243, 243, 243);
+    border-style: solid; 
+    border-radius: 1rem;
+    border-width: 2px; 
+}

@@ -1,0 +1,42 @@
+.indexedStep{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    justify-content: center;
+    background: #fff;
+    border: 2px solid #c9c9c9;
+    color: #c9c9c9;
+    text-align: center;
+}
+
+.currentStep{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 8px;
+    justify-content: center;
+    background: #fff;
+    border: 2px solid;
+    color:white;
+    text-align: center;
+}
+
+.Progress-bar{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display:grid;
+    flex-direction:row;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    width: 62vw;
+}
+
+.Bar-titles{
+    font-weight: 650;
+    font-size: calc(2px + 2vmin);
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 65vw;
+}

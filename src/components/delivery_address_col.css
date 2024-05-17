@@ -1,0 +1,64 @@
+.Address-box{
+    padding: 1vh 0px; 
+    padding-left:1.5vw; 
+    padding-right:1.5vw; 
+    color:rgb(70, 70, 70); 
+    font-size:calc(3px + 2vmin); 
+    font-weight: 500; 
+    border:rgb(243, 243, 243); 
+    border-style:solid; 
+    border-radius: 1rem;
+    border-width:2px;
+    background-color: #fbfbfb;
+    display: flex;
+    word-wrap: break-word;
+    text-align: left;
+    width: 24vw;
+    margin-bottom: 2vh;
+}
+
+.Problem-box{
+    padding: 1vh 0px; 
+    padding-left:1.5vw; 
+    padding-right:1.5vw; 
+    color:rgb(70, 70, 70); 
+    font-size:calc(2px + 2vmin); 
+    font-weight: 650; 
+    border:rgb(243, 243, 243); 
+    border-style:solid; 
+    border-radius: 1rem;
+    border-width:2px;
+    display: flex;
+    word-wrap: break-word;
+    /* text-align: left; */
+    width: 24vw;
+    margin-bottom: 2vh;
+}
+
+.Image-col{
+    width:40%; 
+    display:grid; 
+    justify-content:center; 
+    align-content:center;
+}
+
+.Problem-button{
+    width: 80%;
+    color:rgb(243, 243, 243); 
+    font-size:calc(0px + 2vmin); 
+    font-weight: 600;
+    padding-bottom: 1.5vh; 
+    padding-top: 1.5vh; 
+    border: none;
+    border-radius: 1rem;
+    background-color: #FF0000;
+}
+
+
+.Problem-col{
+    width:60% ;
+    justify-content:center;
+    display:flex;
+    flex-direction:column;
+    margin-bottom:2vh;
+}
